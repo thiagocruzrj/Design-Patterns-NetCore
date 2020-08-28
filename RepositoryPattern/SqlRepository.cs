@@ -33,5 +33,17 @@ namespace RepositoryPattern
                 return _connection;
             }
         }
+
+        public SqlRepository UseConnectionStringId(string connectionStringId)
+        {
+            _connectionStringId = connectionStringId;
+            return this;
+        }
+
+        public SqlRepository UseConnectionString(string connectionString)
+        {
+            _connectionString = connectionString;
+            return this;
+        }
     }
 }
