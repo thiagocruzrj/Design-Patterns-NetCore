@@ -24,7 +24,7 @@ namespace RepositoryPattern
             get {
                 if(_connection == null)
                 {
-                    If(string.IsNullOrEmpty(_connectionString))
+                    if(string.IsNullOrEmpty(_connectionString))
                     {
                         _connectionString = _configuration.GetConnectionString(_connectionStringId);
                     }
