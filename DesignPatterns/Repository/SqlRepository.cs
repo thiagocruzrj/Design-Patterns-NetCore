@@ -15,9 +15,9 @@ namespace RepositoryPattern
             _configuration = configuration;
         }
 
-        public SqlRepository(string _connectionStringId)
+        public SqlRepository(string connectionStringId)
         {
-            _connectionStringId = _connectionStringId;
+            _connectionStringId = connectionStringId;
         }
 
         protected SqlConnection Database {

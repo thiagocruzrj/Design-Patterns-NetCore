@@ -1,17 +1,18 @@
 using Dapper;
 using Microsoft.Extensions.Configuration;
+using RepositoryPattern;
 
-namespace RepositoryPattern
+namespace DesignPatterns.Repository
 {
     public class DapperSqlProductRepository : SqlRepository, IProductRepository
     {
-        public DapperSqlProductRepository() { }
+        public DapperSqlProductRepository(IConfiguration configuration) : base(configuration) { }
 
-        public void InsertProduct(Product product)
+        public void Insert(Product product)
         {
             var command = $"INSERT INTO Product (Id, Name) VALUES (@Id, @Name)";
 
-            Databaseee.Execute(command, product);
+            Database.Execute(command, product);
         }
     }
 }
