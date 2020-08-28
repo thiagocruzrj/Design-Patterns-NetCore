@@ -14,5 +14,24 @@ namespace RepositoryPattern
         {
             _configuration = configuration;
         }
+
+        public SqlRepository(string _connectionStringId)
+        {
+            _connectionStringId = _connectionStringId;
+        }
+
+        protected SqlConnection Database {
+            get {
+                if(_connection == null)
+                {
+                    If(string.IsNullOrEmpty(_connectionString))
+                    {
+                        _connectionString = _configuration.GetConnectionString(_connectionStringId);
+                    }
+                    _connection = new SqlConnection(_connectionString);
+                }
+                return _connection;
+            }
+        }
     }
 }
