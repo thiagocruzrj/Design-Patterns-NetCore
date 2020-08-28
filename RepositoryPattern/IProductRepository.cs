@@ -1,4 +1,7 @@
 namespace RepositoryPattern
 {
-    public interface IProductRepository : IEntityRepository<Product> { }
+    public interface IProductRepository
+    {
+        void Insert(Product product);
+    }
 }
