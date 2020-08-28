@@ -1,4 +1,4 @@
-namespace 
+namespace RepositoryPattern
 {
     public interface IEntityRepository
     {
