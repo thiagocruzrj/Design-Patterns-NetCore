@@ -1,7 +1,6 @@
-using DesignPatterns.Repository;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace RepositoryPattern
+namespace DesignPatterns.Repository
 {
     public static class RespositoryExtensions
     {

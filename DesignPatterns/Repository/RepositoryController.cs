@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace RepositoryPattern
+namespace DesignPatterns.Repository
 {
     public class RepositoryController : Controller
     {

@@ -1,6 +1,5 @@
 using Dapper;
 using Microsoft.Extensions.Configuration;
-using RepositoryPattern;
 
 namespace DesignPatterns.Repository
 {

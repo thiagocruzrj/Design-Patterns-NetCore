@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GldTi82eg2BLSuPkf4NJZysOK3TuUoNEvwOyBjS7bXyR0HJBPFv+Hh0qG5G/eK98GKJ8jIlOMXFTAZhRUGEhtA==",
+  "dgSpecHash": "RgioqLa7Ft2HHFmhcTxrjxlroPro8M/2/5GtLlp5XD0HhbP88TL+6AHWjD16pAYLQaXYD8cNGx44HzVgrD94dQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thiago.justo\\source\\repos\\DesignPatterns\\DesignPatterns\\DesignPatterns.csproj",
+  "projectFilePath": "C:\\Users\\thiago.justo\\Documents\\GitHub\\Design-Patterns-NetCore\\DesignPatterns\\DesignPatterns.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thiago.justo\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\thiago.justo\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

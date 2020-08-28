@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Configuration;
 using System.Data.SqlClient;
 
-namespace RepositoryPattern
+namespace DesignPatterns.Repository
 {
     public abstract class SqlRepository
     {
@@ -20,11 +20,13 @@ namespace RepositoryPattern
             _connectionStringId = connectionStringId;
         }
 
-        protected SqlConnection Database {
-            get {
-                if(_connection == null)
+        protected SqlConnection Database
+        {
+            get
+            {
+                if (_connection == null)
                 {
-                    if(string.IsNullOrEmpty(_connectionString))
+                    if (string.IsNullOrEmpty(_connectionString))
                     {
                         _connectionString = _configuration.GetConnectionString(_connectionStringId);
                     }

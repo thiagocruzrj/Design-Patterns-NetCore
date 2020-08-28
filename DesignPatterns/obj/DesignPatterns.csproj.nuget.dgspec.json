@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiago.justo\\source\\repos\\DesignPatterns\\DesignPatterns\\DesignPatterns.csproj": {}
+    "C:\\Users\\thiago.justo\\Documents\\GitHub\\Design-Patterns-NetCore\\DesignPatterns\\DesignPatterns.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiago.justo\\source\\repos\\DesignPatterns\\DesignPatterns\\DesignPatterns.csproj": {
+    "C:\\Users\\thiago.justo\\Documents\\GitHub\\Design-Patterns-NetCore\\DesignPatterns\\DesignPatterns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiago.justo\\source\\repos\\DesignPatterns\\DesignPatterns\\DesignPatterns.csproj",
+        "projectUniqueName": "C:\\Users\\thiago.justo\\Documents\\GitHub\\Design-Patterns-NetCore\\DesignPatterns\\DesignPatterns.csproj",
         "projectName": "DesignPatterns",
-        "projectPath": "C:\\Users\\thiago.justo\\source\\repos\\DesignPatterns\\DesignPatterns\\DesignPatterns.csproj",
+        "projectPath": "C:\\Users\\thiago.justo\\Documents\\GitHub\\Design-Patterns-NetCore\\DesignPatterns\\DesignPatterns.csproj",
         "packagesPath": "C:\\Users\\thiago.justo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiago.justo\\source\\repos\\DesignPatterns\\DesignPatterns\\obj\\",
+        "outputPath": "C:\\Users\\thiago.justo\\Documents\\GitHub\\Design-Patterns-NetCore\\DesignPatterns\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thiago.justo\\AppData\\Roaming\\NuGet\\NuGet.Config",

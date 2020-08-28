@@ -1,4 +1,4 @@
-namespace RepositoryPattern
+namespace DesignPatterns.Repository
 {
     public interface IProductRepository
     {
