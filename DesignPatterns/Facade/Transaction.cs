@@ -2,7 +2,7 @@
 
 namespace DesignPatterns.Facade
 {
-    public sealed class Trasaction
+    public sealed class Transaction
     {
         private bool _transaction = false;
 
