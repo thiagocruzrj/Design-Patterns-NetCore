@@ -11,7 +11,7 @@ namespace DesignPatterns.Composite
             nodes.Add(new Control() { Id = 3 });
             IControl control = nodes;
 
-            return Content($"Composite:</br> {control.Render()}");
+            return Content($"Composite:</br> {control.Reader()}");
         }
     }
 }
