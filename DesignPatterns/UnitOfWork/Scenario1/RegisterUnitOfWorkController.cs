@@ -31,5 +31,18 @@ namespace DesignPatterns.UnitOfWork.Scenario1
 
             return Content("Unit of Work Pattern");
         }
+
+        public IActionResult Separated()
+        {
+            var product = new Product()
+            {
+                Id = 1,
+                Name = "Product 1"
+            };
+
+            _unitOfWork.ProductRepository.Insert(product);
+
+            return Content("Unit of work Pattern");
+        }
     }
 }
